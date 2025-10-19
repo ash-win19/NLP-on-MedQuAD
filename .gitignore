@@ -169,19 +169,19 @@ cython_debug/
 .conda/
 
 # Machine Learning / Data Science specific
-# Model files (keep configs, ignore large model weights)
-*.bin
-*.safetensors
-*.h5
-*.hdf5
-*.pkl
-*.pickle
-*.joblib
-*.model
-*.pt
-*.pth
-*.ckpt
-*.weights
+# Model files (handled by Git LFS - see .gitattributes)
+# *.bin
+# *.safetensors
+# *.h5
+# *.hdf5
+# *.pkl
+# *.pickle
+# *.joblib
+# *.model
+# *.pt
+# *.pth
+# *.ckpt
+# *.weights
 
 # Large datasets (keep small samples, ignore full datasets)
 *.csv
@@ -276,12 +276,12 @@ results/
 !models/*/generation_config.json
 !models/*/topics.json
 
-# Ignore large binary files in models
+# Ignore large binary files in models (handled by Git LFS)
 models/*/openvino/
-models/*/*.bin
-models/*/*.safetensors
-models/*/*.msgpack
-models/*/*.ot
+# models/*/*.bin
+# models/*/*.safetensors
+# models/*/*.msgpack
+# models/*/*.ot
 
 # Notebook artifacts (keep notebooks, ignore large outputs)
 notebooks/artifacts/
