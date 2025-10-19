@@ -1,0 +1,36 @@
+name: medquad_env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - lxml
+  - pyarrow
+  - tqdm
+  - rich
+  - spacy
+  - pytorch
+  - torchvision
+  - torchaudio
+  - faiss-cpu
+  - ipykernel
+  - pip
+  - pip:
+      - transformers
+      - datasets
+      - evaluate
+      - rank-bm25
+      - sentence-transformers
+      - rouge-score
+      - bert-score
+      - sacrebleu
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
